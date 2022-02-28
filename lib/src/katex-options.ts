@@ -77,4 +77,9 @@ export class KatexOptions {
      * @default "warn"
      */
     strict?: boolean | string | Function;
+    delimiters?: {
+      left: string;
+      right: string;
+      display: boolean;
+    }[];
 }
